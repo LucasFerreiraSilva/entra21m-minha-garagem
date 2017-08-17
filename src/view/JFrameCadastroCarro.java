@@ -378,12 +378,11 @@ public class JFrameCadastroCarro extends javax.swing.JFrame {
                 .addGap(2, 2, 2)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(7, 7, 7)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                         .addComponent(jButtonSalvar)
                         .addGap(18, 18, 18)
                         .addComponent(jButtonCancelar)))
-                .addGap(123, 123, 123))
+                .addGap(50, 50, 50))
         );
 
         pack();
